@@ -1,0 +1,19 @@
+h1 {
+  color: seagreen;
+  background-color: #fff;
+}
+
+h4 {
+  border: 1px dashed red;
+
+}
+
+li:nth-child(2n) {
+  color: red;
+
+}
+
+li:nth-child(2n + 1) {
+  color: blue;
+
+}
