@@ -1,19 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+body{
+  font-family: 'Bree Serif', serif;
+  background-image: url(../images/texture-purple-squares_805754.jpg);
+  background-repeat: none;
+}
+
 h1 {
-  color: seagreen;
-  background-color: #fff;
+  color: purple;
+  background-color: #ccc;
+  border-bottom:
 }
 
 h4 {
-  border: 1px dashed red;
+  border-bottom: 1px dashed red;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
 
 }
 
 li:nth-child(2n) {
-  color: red;
+  color: white;
 
 }
 
 li:nth-child(2n + 1) {
-  color: blue;
+  color: #ddd;
 
 }
