@@ -1,16 +1,58 @@
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
 body{
-  font-family: 'Bree Serif', serif;
+  font-family: 'Noto Sans', sans-serif;
   background-image: url(../images/texture-purple-squares_805754.jpg);
   background-repeat: none;
 }
 
+#container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#projects{
+  background-color: rgba(255, 250, 250, 0.38);
+  width: auto;
+  height: 300px;
+}
+
+
+.item{
+
+}
+
+#space1{
+  height: 20px;
+}
+
+
+#knowledge{
+  margin: 0px 10px;
+  padding: 10px;
+  background-color: rgba(255, 250, 250, 0.38);
+}
+
+img{
+  width: 50%;
+  height: auto;
+}
+
+a{
+  color: #CCCCFF;
+  text-decoration: none;
+  font-variant: uppercase;
+  font-size: 12px;
+}
+
+a:hover{;
+  color: #45337F;
+}
+
 h1 {
-  color: purple;
-  background-color: #ccc;
-  border-bottom:
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
 
 h4 {
@@ -18,6 +60,11 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 2px;
 
+}
+
+h6 {
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
 
 li:nth-child(2n) {
